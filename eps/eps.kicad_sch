@@ -1,5 +1,72 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9e0ae2e7-d4be-41b4-8312-0d2aceea2180")
+	(paper "A4")
+	(title_block
+		(title "SCRT Cubesat EPS")
+		(date "2025-08-22")
+		(rev "1")
+		(company "OSU")
+	)
+	(lib_symbols)
+	(sheet
+		(at 17.78 16.51)
+		(size 20.32 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8656506a-f3cd-4e75-b5fa-6b385f9fb82d")
+		(property "Sheetname" "Solar String"
+			(at 17.78 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar-string.kicad_sch"
+			(at 17.78 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SOLAR_OUT" input
+			(at 38.1 22.86 0)
+			(uuid "352736ab-a953-4684-b7c7-8286c512e9ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/9e0ae2e7-d4be-41b4-8312-0d2aceea2180"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
