@@ -1,0 +1,9 @@
+[submodule "obc/tests/lora-packet-transmission/lib/messaging"]
+	path = obc/tests/lora-packet-transmission/lib/messaging
+	url = https://github.com/osusat/messaging
+[submodule "obc/tests/lora-packet-transmission/lib/rp2x_rfm69.git"]
+	path = obc/tests/lora-packet-transmission/lib/rp2x_rfm69.git
+	url = https://github.com/e-mo/rp2x_rfm69.git
+[submodule "obc/tests/lora-packet-transmission/lib/rp2x_rfm69"]
+	path = obc/tests/lora-packet-transmission/lib/rp2x_rfm69
+	url = https://github.com/e-mo/rp2x_rfm69
