@@ -262,6 +262,12 @@
 		(uuid "3b7e0bc1-086b-4f5f-926f-dedef227111d")
 	)
 	(junction
+		(at 116.84 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "069b6021-8863-4723-b6f2-b7d73d105138")
+	)
+	(junction
 		(at 17.78 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -337,10 +343,6 @@
 		(at 99.06 25.4)
 		(uuid "5b7fbe10-50d7-4bc7-abb5-51f212e92355")
 	)
-	(no_connect
-		(at 99.06 22.86)
-		(uuid "841b7d65-571d-41d1-9800-f03cb64575f1")
-	)
 	(wire
 		(pts
 			(xy 41.91 68.58) (xy 50.8 68.58)
@@ -410,6 +412,16 @@
 			(type default)
 		)
 		(uuid "2f5e58cc-8098-4d2f-890c-c933a4e6b2e3")
+	)
+	(wire
+		(pts
+			(xy 121.92 54.61) (xy 121.92 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c4498a-76f2-49a0-80df-8fdb93b7c722")
 	)
 	(wire
 		(pts
@@ -513,6 +525,26 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 33.02) (xy 127 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7759be48-4e3e-4bc7-90ab-02aab0989814")
+	)
+	(wire
+		(pts
+			(xy 116.84 22.86) (xy 116.84 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77610718-3fa7-48ec-87cf-80c091774086")
+	)
+	(wire
+		(pts
 			(xy 50.8 22.86) (xy 62.23 22.86)
 		)
 		(stroke
@@ -540,6 +572,16 @@
 			(type default)
 		)
 		(uuid "8fad3e58-1c4c-4a8f-97ca-2f346d4644f1")
+	)
+	(wire
+		(pts
+			(xy 116.84 44.45) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920bdf67-ff5f-4f9c-9157-385d3f04709e")
 	)
 	(wire
 		(pts
@@ -573,6 +615,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 54.61) (xy 121.92 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73febf8-8181-406a-b2b5-786f8be5a8e7")
+	)
+	(wire
+		(pts
 			(xy 50.8 34.29) (xy 50.8 22.86)
 		)
 		(stroke
@@ -590,6 +642,16 @@
 			(type default)
 		)
 		(uuid "b50d737e-312d-4646-a88b-ff9491ed8759")
+	)
+	(wire
+		(pts
+			(xy 116.84 22.86) (xy 127 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b61d9e-fffe-46c5-947d-a3c2759fdb86")
 	)
 	(wire
 		(pts
@@ -620,6 +682,16 @@
 			(type default)
 		)
 		(uuid "cd8d8330-ed9f-413e-b4af-2709421ba289")
+	)
+	(wire
+		(pts
+			(xy 121.92 35.56) (xy 121.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4171547-4695-4630-94e9-6cd5a2bb065b")
 	)
 	(wire
 		(pts
@@ -660,6 +732,16 @@
 			(type default)
 		)
 		(uuid "ef0882d0-9423-4262-b329-8076f51c6887")
+	)
+	(wire
+		(pts
+			(xy 99.06 22.86) (xy 116.84 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ff2ac7-bb83-481d-bd79-1715863b2aa7")
 	)
 	(wire
 		(pts
@@ -889,6 +971,140 @@
 			(project "eps"
 				(path "/9e0ae2e7-d4be-41b4-8312-0d2aceea2180"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82366106-bc48-4557-ada0-57b15b683a93")
+		(property "Reference" "#PWR04"
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a81666b5-0efe-452c-b847-0fbb3624169b")
+		)
+		(instances
+			(project "eps"
+				(path "/9e0ae2e7-d4be-41b4-8312-0d2aceea2180"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86ebe1d5-d60a-487f-a129-5f27bb82ddbb")
+		(property "Reference" "#PWR05"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a58aafd2-7e57-47e0-9555-15ed4741234e")
+		)
+		(instances
+			(project "eps"
+				(path "/9e0ae2e7-d4be-41b4-8312-0d2aceea2180"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -1155,6 +1371,108 @@
 		)
 	)
 	(sheet
+		(at 127 40.64)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5908e624-b9d3-44ce-b527-44975367145b")
+		(property "Sheetname" "Battery Charger1"
+			(at 127 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_charger.kicad_sch"
+			(at 127 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CE" input
+			(at 127 46.99 180)
+			(uuid "c10b7095-f448-49b0-b2ea-2731a7643544")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STAT1" input
+			(at 127 49.53 180)
+			(uuid "171b1daf-b4c9-473c-b711-265b7d2ebf56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STAT2" input
+			(at 127 52.07 180)
+			(uuid "318d840a-27c7-49f2-bc47-8a8d864d15b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 127 44.45 180)
+			(uuid "0fad6e4f-1454-40be-b8b0-25d24802272f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" input
+			(at 139.7 44.45 0)
+			(uuid "06d53ed3-899d-40bc-9e02-0b7e7c129fdd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 127 54.61 180)
+			(uuid "8164752a-90cf-4607-a95a-0c3f6ef01741")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/9e0ae2e7-d4be-41b4-8312-0d2aceea2180"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 77.47)
 		(size 20.32 5.08)
 		(exclude_from_sim no)
@@ -1336,6 +1654,108 @@
 			(project "eps"
 				(path "/9e0ae2e7-d4be-41b4-8312-0d2aceea2180"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 19.05)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae433a55-008e-45d6-9a90-c7b82ac6a9db")
+		(property "Sheetname" "Battery Charger"
+			(at 127 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery_charger.kicad_sch"
+			(at 127 34.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CE" input
+			(at 127 25.4 180)
+			(uuid "3747c222-6f9e-4b33-9ab7-e7c3be31ef7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STAT1" input
+			(at 127 27.94 180)
+			(uuid "c6c4b6ba-86ca-47f5-9dba-20a1430a6cd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STAT2" input
+			(at 127 30.48 180)
+			(uuid "44fa316b-8db4-4f78-ae5d-fe70b5d8d4af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIN" input
+			(at 127 22.86 180)
+			(uuid "c091e1cf-8a35-43c8-9575-614ab0979d40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VOUT" input
+			(at 139.7 22.86 0)
+			(uuid "dfae8eff-b311-4818-b5fb-a59d5ef57b21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 127 33.02 180)
+			(uuid "9b421b13-4042-4e49-802a-d61b33334cb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "eps"
+				(path "/9e0ae2e7-d4be-41b4-8312-0d2aceea2180"
+					(page "9")
 				)
 			)
 		)
