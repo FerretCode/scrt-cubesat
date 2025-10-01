@@ -1,3 +1,4 @@
 eps/eps-backups/
 eps/*.lck
 eps/fp-info-cache
+eps/symbols/*.bak
